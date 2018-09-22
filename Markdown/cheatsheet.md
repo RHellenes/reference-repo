@@ -241,3 +241,39 @@ Alternativ 2
 ```
 
  
+## Line breaks
+
+First sentence</br> with a break
+
+
+```markdown
+First sentence</br> with a break
+```
+
+## Horizontal rules 
+
+**Alternative 1**
+
+---
+
+**Alternative 2**
+
+===
+
+```markdown
+**Alternative 1**
+
+---
+
+**Alternative 2**
+
+===
+```
+
+###### Det er viktig at ---/ === ikke er rett under en paragraf for da blir det en tittel. 
+
+
+## BlockQuotes
+
+> "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. ANd the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it. 
+>-Steve Jobs
