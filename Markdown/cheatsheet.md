@@ -213,27 +213,6 @@ Alternativ 2
 ```
 
 ### Nøsting (nested list)
-
-1. 1
-  1. 1 .1
-1. 2
-  1. 2.1
-  1. 2.2
-    1. 2.2.1
-1. 3
-
-```markdown
-1. 1
-  1. 1.1
-1. 2
-  1. 2.1
-  1. 2.2
-    1. 2.2.1
-1. 3
-```
-
-&nbsp; &nbsp;
-
 - Punkt 1
   1. One
   2. Two
@@ -244,6 +223,7 @@ Alternativ 2
 
     Dette er en paragraph inni listen
 
+    
 - Punkt 3
 
 ```markdown
@@ -259,3 +239,5 @@ Alternativ 2
 
 - Punkt 3
 ```
+
+ 
