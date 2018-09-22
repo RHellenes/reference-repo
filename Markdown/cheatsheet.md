@@ -14,6 +14,10 @@ _Italic_ eller _Italic v2_ bruk en \* eller \_ for å starte og slutt
 
 # H1 skrives med en
 
+```
+# H1  skrives med en #
+```
+
 ## H2 skrives med 2x
 
 ### H3 skrives med 3x
