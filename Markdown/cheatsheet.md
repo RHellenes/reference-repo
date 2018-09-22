@@ -323,7 +323,7 @@ Hey, hva om du prøver `const x = 101;`?
 
 Vise hva du har endret med diff
 
-´´´diff
+```diff
 
 const x = 100;
 - const weather = 'nice';
