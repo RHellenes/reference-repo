@@ -22,4 +22,4 @@ _Italic_ eller _Italic v2_ bruk en \* eller \_ for å starte og slutt
 
 ##### H5 skrives med 5x
 
-###### H6 skrives med 5x
+###### H6 skrives med 6x
