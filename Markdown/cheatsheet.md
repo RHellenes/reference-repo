@@ -23,3 +23,17 @@ _Italic_ eller _Italic v2_ bruk en \* eller \_ for å starte og slutt
 ##### H5 skrives med 5x
 
 ###### H6 skrives med 6x
+
+## Links
+
+syntax: [Tekst](link "title attribute") (- mellomrommet mellom [] og ())
+
+[Min portfolio](https://rhellenes.me "Dette er linken til min portfolio").
+
+Ved lange linker kan det være lurt å gjøre om linken til en variabel.
+Denne variabelen legges på bunnen av siden med denne syntaksen:
+
+Min andre link til [min portfolio][1].
+[identifikator e.g. 1] : Link
+
+[1]: https://rhellenes.me
