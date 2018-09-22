@@ -326,8 +326,8 @@ Vise hva du har endret med diff
 ´´´diff
 
 const x = 100;
- - const weather = 'nice';
- + const weather = 'bad';
- 
+- const weather = 'nice';
++ const weather = 'bad';
+
 ```
 
