@@ -31,7 +31,11 @@ Alternativ 2:
 _Italic_
 ```
 
-~~Strikethrough~~ bruk 2x ~ (hold ALT nede og trykk [*/@])
+~~Strikethrough~~
+
+```markdown
+~~Strikethrough^^
+```
 
 ## Titler
 
@@ -65,16 +69,27 @@ etc.
 
 ## Links
 
-syntax: [Tekst]+(link "title attribute")
+Alternativ 1:
 
 [Min portfolio](https://rhellenes.me "Dette er linken til min portfolio").
 
+```markdown
+[Min portfolio](https://rhellenes.me "Dette er linken til min portfolio")
+```
+
+Alternativ 2:
 Ved lange linker kan det være lurt å gjøre om linken til en variabel.
 Denne variabelen legges på bunnen av siden med denne syntaksen:
 
 Min andre link til [min portfolio][1].
 
-[identifikator e.g. 1]+:+ Link
+```markdown
+Min andre link til [min portfolio][1].
+
+[...]
+
+[1]: https://rhellenes.me
+```
 
 [1]: https://rhellenes.me
 
@@ -82,12 +97,24 @@ Min andre link til [min portfolio][1].
 
 ## Bilder
 
-syntax !+[Alternativ tekst]+(link "title attribute")
+Alternativ 1
 
 e.g.
 ![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
 
+```markdown
+![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
+```
+
 Bilder kan linkes med variabel på samme måte som linker bare med ! først
+
+```markdown
+![Bilde fra min portfolio][taelahiv]
+
+[...]
+
+[taelahiv]: https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg
+```
 
 ### Kontrollere størrelse på bildet:
 
@@ -96,9 +123,6 @@ Du kan kontrollere størrelsen på bildet ved å bruke vanlig HTML kode med inli
 
 <img class="styleattribute" src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
 
-<style>
-  img{
-    width: 200px;
-    height:200px;
-  }
-  </style>
+![Bilde fra min portfolio][taelahiv]
+
+[taelahiv]: https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg
