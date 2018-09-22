@@ -54,4 +54,14 @@ Bilder kan linkes med variabel på samme måte som linker bare med ! først
 
 ### Kontrollere størrelse på bildet:
 
+Du kan kontrollere størrelsen på bildet ved å bruke vanlig HTML kode med inline css:
 <img src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
+
+<img class="styleattribute" src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
+
+<style>
+  .styleattribute{
+    width: 200px;
+    height:200px;
+  }
+  </style>
