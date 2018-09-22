@@ -60,7 +60,7 @@ Du kan kontrollere størrelsen på bildet ved å bruke vanlig HTML kode med inli
 <img class="styleattribute" src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
 
 <style>
-  .styleattribute{
+  img{
     width: 200px;
     height:200px;
   }
