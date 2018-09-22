@@ -99,14 +99,15 @@ Min andre link til [min portfolio][1].
 
 Alternativ 1
 
-e.g.
-![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
-
 ```markdown
 ![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
 ```
 
-Bilder kan linkes med variabel
+e.g.
+git
+![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
+
+#### Bilder kan linkes med variabel
 
 ```markdown
 ![Bilde fra min portfolio][taelahiv]
@@ -117,11 +118,12 @@ Bilder kan linkes med variabel
 ```
 
 e.g.
+
 ![Bilde fra min portfolio][taelahiv]
 
 [taelahiv]: https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg
 
-### Kontrollere størrelse på bildet:
+#### Kontrollere størrelse på bildet:
 
 Du kan kontrollere størrelsen på bildet ved å bruke vanlig HTML kode med inline css:
 
@@ -130,4 +132,5 @@ Du kan kontrollere størrelsen på bildet ved å bruke vanlig HTML kode med inli
 ```
 
 e.g.
+
 <img src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
