@@ -24,8 +24,7 @@
 **Utheving/ bold**
 ```
 
-&nbsp;
-&nbsp;
+&nbsp; &nbsp;
 
 **_Italic_**
 
@@ -43,8 +42,7 @@ _Italic_
 _Italic_
 ```
 
-&nbsp;
-&nbsp;
+&nbsp; &nbsp;
 
 **~~Strikethrough~~**
 
@@ -52,8 +50,7 @@ _Italic_
 ~~Strikethrough^^
 ```
 
-&nbsp;
-&nbsp;
+&nbsp; &nbsp;
 
 ## Titler
 
@@ -85,8 +82,7 @@ _Italic_
 
 etc.
 
-&nbsp;
-&nbsp;
+&nbsp; &nbsp;
 
 ## Links
 
@@ -102,8 +98,7 @@ etc.
 
 **Alternativ 2:**
 
-Ved lange linker kan det være lurt å gjøre om linken til en variabel.
-Denne variabelen legges på bunnen av siden med denne syntaksen:
+Ved lange linker kan det være lurt å gjøre om linken til en variabel. Denne variabelen legges på bunnen av siden med denne syntaksen:
 
 Min andre link til [min portfolio][1].
 
@@ -119,8 +114,7 @@ Min andre link til [min portfolio][1].
 
 ###### Note: denne metoden gir ikke muligheten til title attribute
 
-&nbsp;
-&nbsp;
+&nbsp; &nbsp;
 
 ## Bilder
 
@@ -168,8 +162,7 @@ e.g.
 
 <img src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
 
-&nbsp;
-&nbsp;
+&nbsp; &nbsp;
 
 ## List
 
@@ -222,25 +215,24 @@ Alternativ 2
 ### Nøsting (nested list)
 
 1. 1
-1. 1.1
+1. 1 .1
 1. 2
-1. 2.1
-1. 2.2
-   1. 2.2.1
+  1. 2.1
+  1. 2.2
+    1. 2.2.1
 1. 3
 
 ```markdown
 1. 1
-1. 1.1
+  1. 1.1
 1. 2
-1. 2.1
-1. 2.2
-   1. 2.2.1
+  1. 2.1
+  1. 2.2
+    1. 2.2.1
 1. 3
 ```
 
-&nbsp;
-&nbsp;
+&nbsp; &nbsp;
 
 - Punkt 1
   1. One
