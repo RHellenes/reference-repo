@@ -331,3 +331,65 @@ const x = 100;
 
 ```
 
+
+&nbsp;
+&nbsp;
+
+## Tables / tabeller
+
+Det er litt tungvint å skrive, men det finnes markdown table generatorer. 
+
+|Name| Age| Gender|
+|:---|:---|:------|
+|Sara|27|Female|
+|René|23|Male|
+|Robert|32|Male|
+|Katie|42|Female|
+
+
+|Name| Age| Gender|
+|---:|---:|------:|
+|Sara|27|Female|
+|René|23|Male|
+|Robert|32|Male|
+|Katie|42|Female|
+
+
+|Name| Age| Gender|
+|:--:|:--:|:-----:|
+|Sara|27|Female|
+|René|23|Male|
+|Robert|32|Male|
+|Katie|42|Female|
+
+Legg merke til ` : ` på andre linje
+
+```markdown
+
+
+|Name| Age| Gender|
+|:---|:---|:------|
+|Sara|27|Female|
+|René|23|Male|
+|Robert|32|Male|
+|Katie|42|Female|
+
+
+|Name| Age| Gender|
+|---:|---:|------:|
+|Sara|27|Female|
+|René|23|Male|
+|Robert|32|Male|
+|Katie|42|Female|
+
+
+|Name| Age| Gender|
+|:--:|:--:|:-----:|
+|Sara|27|Female|
+|René|23|Male|
+|Robert|32|Male|
+|Katie|42|Female|
+```
+
+&nbsp;
+&nbsp;
