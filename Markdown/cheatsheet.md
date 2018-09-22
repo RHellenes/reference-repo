@@ -339,6 +339,8 @@ const x = 100;
 
 Det er litt tungvint å skrive, men det finnes markdown table generatorer. 
 
+&nbsp;
+
 |Name| Age| Gender|
 |:---|:---|:------|
 |Sara|27|Female|
@@ -362,7 +364,18 @@ Det er litt tungvint å skrive, men det finnes markdown table generatorer.
 |Robert|32|Male|
 |Katie|42|Female|
 
+|Name| Age| Gender|
+|:---|:--:|------:|
+|Sara|27|Female|
+|René|23|Male|
+|Robert|32|Male|
+|Katie|42|Female|
+
+&nbsp;
+
 Legg merke til ` : ` på andre linje
+
+&nbsp;
 
 ```markdown
 
@@ -389,7 +402,26 @@ Legg merke til ` : ` på andre linje
 |René|23|Male|
 |Robert|32|Male|
 |Katie|42|Female|
+
+|Name| Age| Gender|
+|:---|:--:|------:|
+|Sara|27|Female|
+|René|23|Male|
+|Robert|32|Male|
+|Katie|42|Female|
 ```
 
 &nbsp;
 &nbsp;
+
+## Checkboxes
+
+- [ ] Klipp plenen
+- [x] Gå tur
+- [ ] Vask opp
+
+```markdown
+- [ ] Klipp plenen
+- [x] Gå tur
+- [ ] Vask opp
+```
