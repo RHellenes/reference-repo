@@ -320,11 +320,14 @@ Hey, hva om du prøver `const x = 101;`?
 &nbsp;
 
 **Code review**
+
 Vise hva du har endret med diff
 
 ´´´diff
+
 const x = 100;
  - const weather = 'nice';
  + const weather = 'bad';
+ 
 ```
 
