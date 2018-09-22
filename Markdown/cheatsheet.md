@@ -14,9 +14,18 @@ _Italic_ eller _Italic v2_ bruk en \* eller \_ for å starte og slutt
 
 # H1 skrives med en
 
-```
-# H1  skrives med en #
-```
+## H2 skrives med 2x
+
+### H3 skrives med 3x
+
+#### H4 skrives med 4x
+
+##### H5 skrives med 5x
+
+###### H6 skrives med 6x
+
+```markdown
+# H1 skrives med en
 
 ## H2 skrives med 2x
 
@@ -27,6 +36,7 @@ _Italic_ eller _Italic v2_ bruk en \* eller \_ for å starte og slutt
 ##### H5 skrives med 5x
 
 ###### H6 skrives med 6x
+```
 
 etc.
 
