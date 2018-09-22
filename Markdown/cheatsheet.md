@@ -175,39 +175,13 @@ e.g.
 
 #### Unordered list
 
-Liste 3:
-
-- Punkt 1
-- Punkt 2
-- Punkt 3
-
-Liste 2:
-
-- Punkt 1
-- Punkt 2
-- Punkt 3
-
-Liste 3:
+Bruk enten -, + eller \* foran hver bullet.
 
 - Punkt 1
 - Punkt 2
 - Punkt 3
 
 ```markdown
-Liste 1:
-
-- Punkt 1
-- Punkt 2
-- Punkt 3
-
-Liste 2:
-
-- Punkt 1
-- Punkt 2
-- Punkt 3
-
-Liste 3:
-
 - Punkt 1
 - Punkt 2
 - Punkt 3
@@ -243,4 +217,53 @@ Alternativ 2
 1. first
 1. second
 1. third
+```
+
+### Nøsting (nested list)
+
+1. 1
+1. 1.1
+1. 2
+1. 2.1
+1. 2.2
+   1. 2.2.1
+1. 3
+
+```markdown
+1. 1
+1. 1.1
+1. 2
+1. 2.1
+1. 2.2
+   1. 2.2.1
+1. 3
+```
+
+&nbsp;
+&nbsp;
+
+- Punkt 1
+  1. One
+  2. Two
+  3. Three
+- Punkt 2
+
+  - Small paragraph
+
+    Dette er en paragraph inni listen
+
+- Punkt 3
+
+```markdown
+- Punkt 1
+  1. One
+  2. Two
+  3. Three
+- Punkt 2
+
+  - Small paragraph
+
+    Dette er en paragraph inni listen
+
+- Punkt 3
 ```
