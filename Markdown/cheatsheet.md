@@ -4,9 +4,32 @@
 
 ## Tekst utheving o.l.
 
-**Utheving/ bold** eller **Bold** bruk 2x \* eller \_ for å starte og slutt, e.g. \_\_ / \*\*
+**Utheving/ bold**
+Alternativ 1:
 
-_Italic_ eller _Italic v2_ bruk en \* eller \_ for å starte og slutt
+```markdown
+**Utheving/ bold**
+```
+
+Alternativ 2:
+
+```markdown
+**Utheving/ bold**
+```
+
+_Italic_
+
+Alternativ 1:
+
+```markdown
+_Italic_
+```
+
+Alternativ 2:
+
+```markdown
+_Italic_
+```
 
 ~~Strikethrough~~ bruk 2x ~ (hold ALT nede og trykk [*/@])
 
