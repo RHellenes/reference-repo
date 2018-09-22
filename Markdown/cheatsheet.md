@@ -106,7 +106,7 @@ e.g.
 ![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
 ```
 
-Bilder kan linkes med variabel på samme måte som linker bare med ! først
+Bilder kan linkes med variabel
 
 ```markdown
 ![Bilde fra min portfolio][taelahiv]
@@ -116,13 +116,18 @@ Bilder kan linkes med variabel på samme måte som linker bare med ! først
 [taelahiv]: https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg
 ```
 
-### Kontrollere størrelse på bildet:
-
-Du kan kontrollere størrelsen på bildet ved å bruke vanlig HTML kode med inline css:
-<img src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
-
-<img class="styleattribute" src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
-
+e.g.
 ![Bilde fra min portfolio][taelahiv]
 
 [taelahiv]: https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg
+
+### Kontrollere størrelse på bildet:
+
+Du kan kontrollere størrelsen på bildet ved å bruke vanlig HTML kode med inline css:
+
+```html
+<img src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
+```
+
+e.g.
+<img src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
