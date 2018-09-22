@@ -212,6 +212,7 @@ Alternativ 2
 1. third
 ```
 
+&nbsp;
 ### Nøsting (nested list)
 - Punkt 1
   1. One
@@ -240,7 +241,9 @@ Alternativ 2
 - Punkt 3
 ```
 
- 
+&nbsp;
+&nbsp;
+
 ## Line breaks
 
 First sentence</br> with a break
@@ -249,6 +252,8 @@ First sentence</br> with a break
 ```markdown
 First sentence</br> with a break
 ```
+&nbsp;
+&nbsp;
 
 ## Horizontal rules 
 
@@ -270,10 +275,56 @@ First sentence</br> with a break
 ===
 ```
 
+
+
 ###### Det er viktig at ---/ === ikke er rett under en paragraf for da blir det en tittel. 
 
+&nbsp;
+&nbsp;
 
 ## BlockQuotes
 
 > "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. ANd the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it. 
->-Steve Jobs
+>
+> **-Steve Jobs**
+
+
+&nbsp;
+&nbsp;
+
+## Code blocks
+
+(sammenlign med raw code)
+
+**Større blokker:**
+
+´´´js
+const x = 100;
+const weather = 'nice';
+```
+
+
+´´´php
+$age = 'unknown';
+$name = 'René';
+
+echo $name;
+
+```
+&nbsp;
+
+**Inline block**
+
+Hey, hva om du prøver `const x = 101;`?
+
+&nbsp;
+
+**Code review**
+Vise hva du har endret med diff
+
+´´´diff
+const x = 100;
+ - const weather = 'nice';
+ + const weather = 'bad';
+```
+
