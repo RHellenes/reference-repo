@@ -8,9 +8,9 @@
 
 &nbsp;
 
-### **Utheving/ bold**
+**Utheving/ bold**
 
-#### Alternativ 1:
+**Alternativ 1:**
 
 ```markdown
 **Utheving/ bold**
@@ -18,7 +18,7 @@
 
 &nbsp;
 
-#### Alternativ 2:
+**Alternativ 2:**
 
 ```markdown
 **Utheving/ bold**
@@ -27,15 +27,17 @@
 &nbsp;
 &nbsp;
 
-### _Italic_
+**_Italic_**
 
-#### Alternativ 1:
+**Alternativ 1:**
 
 ```markdown
 _Italic_
 ```
 
-#### Alternativ 2:
+&nbsp;
+
+**Alternativ 2:**
 
 ```markdown
 _Italic_
@@ -44,7 +46,7 @@ _Italic_
 &nbsp;
 &nbsp;
 
-### ~~Strikethrough~~
+**~~Strikethrough~~**
 
 ```markdown
 ~~Strikethrough^^
@@ -88,7 +90,7 @@ etc.
 
 ## Links
 
-#### Alternativ 1:
+**Alternativ 1:**
 
 [Min portfolio](https://rhellenes.me "Dette er linken til min portfolio").
 
@@ -98,7 +100,7 @@ etc.
 
 &nbsp;
 
-#### Alternativ 2:
+**Alternativ 2:**
 
 Ved lange linker kan det være lurt å gjøre om linken til en variabel.
 Denne variabelen legges på bunnen av siden med denne syntaksen:
@@ -122,17 +124,21 @@ Min andre link til [min portfolio][1].
 
 ## Bilder
 
-#### Alternativ 1
+&nbsp;
+
+**Alternativ 1:**
 
 ```markdown
 ![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
 ```
 
 e.g.
-git
+
 ![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
 
-#### Bilder kan linkes med variabel
+&nbsp;
+
+**Bilder kan linkes med variabel**
 
 ```markdown
 ![Bilde fra min portfolio][taelahiv]
@@ -148,7 +154,9 @@ e.g.
 
 [taelahiv]: https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg
 
-#### Kontrollere størrelse på bildet:
+&nbsp;
+
+**Kontrollere størrelse på bildet:**
 
 Du kan kontrollere størrelsen på bildet ved å bruke vanlig HTML kode med inline css:
 
@@ -159,3 +167,80 @@ Du kan kontrollere størrelsen på bildet ved å bruke vanlig HTML kode med inli
 e.g.
 
 <img src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
+
+&nbsp;
+&nbsp;
+
+## List
+
+#### Unordered list
+
+Liste 3:
+
+- Punkt 1
+- Punkt 2
+- Punkt 3
+
+Liste 2:
+
+- Punkt 1
+- Punkt 2
+- Punkt 3
+
+Liste 3:
+
+- Punkt 1
+- Punkt 2
+- Punkt 3
+
+```markdown
+Liste 1:
+
+- Punkt 1
+- Punkt 2
+- Punkt 3
+
+Liste 2:
+
+- Punkt 1
+- Punkt 2
+- Punkt 3
+
+Liste 3:
+
+- Punkt 1
+- Punkt 2
+- Punkt 3
+```
+
+&nbsp;
+
+#### Ordered list
+
+**Alternativ 1**
+
+1. first
+2. second
+3. third
+
+**Alternativ 2**
+
+1. first
+1. second
+1. third
+
+&nbsp;
+
+```markdown
+Alternativ 1
+
+1. first
+2. second
+3. third
+
+Alternativ 2
+
+1. first
+1. second
+1. third
+```
