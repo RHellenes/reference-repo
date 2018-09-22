@@ -4,34 +4,35 @@
 
 ## Tekst utheving o.l.
 
-**Utheving/ bold**
-Alternativ 1:
+### **Utheving/ bold**
+
+#### Alternativ 1:
 
 ```markdown
 **Utheving/ bold**
 ```
 
-Alternativ 2:
+#### Alternativ 2:
 
 ```markdown
 **Utheving/ bold**
 ```
 
-_Italic_
+### _Italic_
 
-Alternativ 1:
-
-```markdown
-_Italic_
-```
-
-Alternativ 2:
+#### Alternativ 1:
 
 ```markdown
 _Italic_
 ```
 
-~~Strikethrough~~
+#### Alternativ 2:
+
+```markdown
+_Italic_
+```
+
+### ~~Strikethrough~~
 
 ```markdown
 ~~Strikethrough^^
@@ -69,7 +70,7 @@ etc.
 
 ## Links
 
-Alternativ 1:
+#### Alternativ 1:
 
 [Min portfolio](https://rhellenes.me "Dette er linken til min portfolio").
 
@@ -77,7 +78,8 @@ Alternativ 1:
 [Min portfolio](https://rhellenes.me "Dette er linken til min portfolio")
 ```
 
-Alternativ 2:
+#### Alternativ 2:
+
 Ved lange linker kan det være lurt å gjøre om linken til en variabel.
 Denne variabelen legges på bunnen av siden med denne syntaksen:
 
@@ -97,7 +99,7 @@ Min andre link til [min portfolio][1].
 
 ## Bilder
 
-Alternativ 1
+#### Alternativ 1
 
 ```markdown
 ![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
