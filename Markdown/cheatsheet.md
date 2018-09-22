@@ -2,7 +2,11 @@
 
 ###### Reference: Wes Bos
 
+&nbsp;
+
 ## Tekst utheving o.l.
+
+&nbsp;
 
 ### **Utheving/ bold**
 
@@ -12,11 +16,16 @@
 **Utheving/ bold**
 ```
 
+&nbsp;
+
 #### Alternativ 2:
 
 ```markdown
 **Utheving/ bold**
 ```
+
+&nbsp;
+&nbsp;
 
 ### _Italic_
 
@@ -32,11 +41,17 @@ _Italic_
 _Italic_
 ```
 
+&nbsp;
+&nbsp;
+
 ### ~~Strikethrough~~
 
 ```markdown
 ~~Strikethrough^^
 ```
+
+&nbsp;
+&nbsp;
 
 ## Titler
 
@@ -68,6 +83,9 @@ _Italic_
 
 etc.
 
+&nbsp;
+&nbsp;
+
 ## Links
 
 #### Alternativ 1:
@@ -77,6 +95,8 @@ etc.
 ```markdown
 [Min portfolio](https://rhellenes.me "Dette er linken til min portfolio")
 ```
+
+&nbsp;
 
 #### Alternativ 2:
 
@@ -96,6 +116,9 @@ Min andre link til [min portfolio][1].
 [1]: https://rhellenes.me
 
 ###### Note: denne metoden gir ikke muligheten til title attribute
+
+&nbsp;
+&nbsp;
 
 ## Bilder
 
