@@ -37,7 +37,7 @@ Denne variabelen legges på bunnen av siden med denne syntaksen:
 
 Min andre link til [min portfolio][1].
 
-[identifikator e.g. 1] : Link
+[identifikator e.g. 1]+:+ Link
 
 [1]: https://rhellenes.me
 
@@ -49,3 +49,9 @@ syntax !+[Alternativ tekst]+(link "title attribute")
 
 e.g.
 ![Bilde fra min portfolio](https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg "Et av bildene i Tælahiv prosjektet mitt")
+
+Bilder kan linkes med variabel på samme måte som linker bare med ! først
+
+### Kontrollere størrelse på bildet:
+
+<img src="https://rhellenes.me/portfolio/portfolio-images/Taelahiv/bottle-front.jpeg" width="500px" height="500px" alt="Et av bildene i Tælahiv prosjektet mitt">
