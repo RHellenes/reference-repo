@@ -35,13 +35,8 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
    "build": "babel js -d compiled"
    ```
 
-   - **js**
-
-     Byttes ut med navnet på mappen du har javascript filene som skal kompileres i.
-
-   - **compiled**
-
-     Byttes ut med navnet på mappen du vil ha de kompilerte filene i. Du trenger ikke å lage mappen før du kjører koden.
+   - **js** byttes ut med navnet på mappen du har javascript filene som skal kompileres i.
+   - **compiled** byttes ut med navnet på mappen du vil ha de kompilerte filene i. Du trenger ikke å lage mappen før du kjører koden.
 
    Alt settes inn i `"scripts"`, etter `"test"` e.g:
 
@@ -58,6 +53,8 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
    +   "build": "babel js -d compiled"
    },
    ```
+
+   NB: Husk `,` på slutten av `"test"`/ før du `"build"` begynner på neste linje.
 
    &nbsp;
 
