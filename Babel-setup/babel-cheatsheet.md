@@ -40,7 +40,7 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
 
    Alt settes inn i `"scripts"`, etter `"test"` e.g:
 
-   `package.json`
+   package.json:
 
    ```diff
    {
