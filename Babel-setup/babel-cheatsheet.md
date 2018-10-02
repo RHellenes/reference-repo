@@ -44,9 +44,9 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
 
    ```diff
    {
-   "name": "form-option-component",
+   "name": "form-select-component",
    "version": "1.0.0",
-   "description": "Test case from Netlife Dialog",
+   "description": "Custom form select component",
    "main": "index.js",
    "scripts": {
        "test": "echo \"Error: no test specified\" && exit 1",
