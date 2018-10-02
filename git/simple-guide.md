@@ -7,6 +7,7 @@
 ## Innholdsfortegnelse:
 
 - [Create & Clone](#create--clone)
+- [Add & Remove](#add--remove)
 
 &nbsp;
 
@@ -18,17 +19,18 @@
   git init
   ```
 
-  &nbsp;
-
-- **clone local** repository
+* **clone local** repository
 
   ```git
   git clone /path/to/repository
   ```
 
-  &nbsp;
-
 - **clone remote** repository
+
   ```git
   git clone username@host:path/to/repository
   ```
+
+&nbsp;
+
+## Create & Clone
