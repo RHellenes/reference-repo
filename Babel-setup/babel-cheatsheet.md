@@ -54,7 +54,7 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
    },
    ```
 
-   NB: Husk `,` på slutten av `"test"`/ før du `"build"` begynner på neste linje.
+   **NB:** Husk `,` på slutten av `"test"`/ før du `"build"` begynner på neste linje.
 
    &nbsp;
 
