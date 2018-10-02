@@ -1,10 +1,12 @@
-# Babel Cheatsheet - Norsk (Fornorsking)
+# Babel Cheatsheet - Norsk
 
 ###### Steg for steg, hvordan sette opp babel i et prosjekt.
 
 Dette avhenger av at man har installert Node Package Manager [npm] for å kunne startes.
 
 1. Sett opp en `package.json` fil ved å skrive `npm init` i root. Følg så stegene og fyll ut relevante felt.
+
+&nbsp;
 
 1. Installer 'Babel command line' og 'Babel preset enviroment' npm packages
 
@@ -13,6 +15,8 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
    npm install babel-preset-env -D
    ```
 
+&nbsp;
+
 1. Lag en **.babelrc** fil i prosjektet ditt og legg denne koden inn:
 
    ```git
@@ -20,6 +24,8 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
        "presets": ["env"]
    }
    ```
+
+&nbsp;
 
 1. Legg følgende script inn i `package.json` filen:
 
@@ -30,7 +36,9 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
    - **js** byttes ut med navnet på mappen du har javascript filene som skal kompileres i.
    - **compiled** byttes ut med navnet på mappen du vil ha de kompilerte filene i. Du trenger ikke å lage mappen før du kjører koden.
 
-   Alt settes inn i `"scripts", etter`"test"` e.g:
+   Alt settes inn i `"scripts"`, etter `"test"` e.g:
+
+   `package.json`
 
    ```diff
    {
@@ -43,3 +51,7 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
    +   "build": "babel js -d compiled"
    },
    ```
+
+&nbsp;
+
+1. Kjør `npm run build` når du vil kompilere koden din fra **js** til **compiled**
