@@ -12,23 +12,23 @@
 
 ## Create & Clone
 
-- **create new** repository `git init`
-- **clone local** repository `git clone /path/to/repository`
-- **clone remote** repository `git clone username@host:path/to/repository`
-
-* **create new** repository
+- **create new** repository
 
   ```git
   git init
   ```
 
-* **clone local** repository
+  &nbsp;
+
+- **clone local** repository
 
   ```git
   git clone /path/to/repository
   ```
 
-* **clone remote** repository
+  &nbsp;
+
+- **clone remote** repository
   ```git
   git clone username@host:path/to/repository
   ```
