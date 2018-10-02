@@ -4,6 +4,6 @@
 
 ## Innholdsfortegnelse:
 
-- [Create & Clone](#Create)
+- [Create & Clone](#create--clone)
 
 ## Create & Clone
