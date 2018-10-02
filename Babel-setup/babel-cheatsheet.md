@@ -4,7 +4,8 @@
 
 Dette avhenger av at man har installert Node Package Manager [npm] for å kunne startes.
 
-1. Sett opp en `package.json` fil ved å skrive:
+1. Sett opp en `package.json` fil ved å skrive i root:
+
     ```git
     npm init
     ```
