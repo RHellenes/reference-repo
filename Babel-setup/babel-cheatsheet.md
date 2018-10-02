@@ -32,7 +32,7 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
 
    Alt settes inn i `"scripts", etter`"test"` e.g:
 
-   ```json
+   ```diff
    {
    "name": "form-option-component",
    "version": "1.0.0",
