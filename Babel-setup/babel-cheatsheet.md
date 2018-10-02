@@ -13,4 +13,33 @@ Dette avhenger av at man har installert Node Package Manager [npm] for å kunne 
    npm install babel-preset-env -D
    ```
 
-1. Lag en **.babelrc**
+1. Lag en **.babelrc** fil i prosjektet ditt og legg denne koden inn:
+
+   ```git
+   {
+       "presets": ["env"]
+   }
+   ```
+
+1. Legg følgende script inn i `package.json` filen:
+
+   ```json
+   "build": "babel js -d compiled"
+   ```
+
+   - **js** byttes ut med navnet på mappen du har javascript filene som skal kompileres i.
+   - **compiled** byttes ut med navnet på mappen du vil ha de kompilerte filene i. Du trenger ikke å lage mappen før du kjører koden.
+
+   Alt settes inn i `"scripts", etter`"test"` e.g:
+
+   ```json
+   {
+   "name": "form-option-component",
+   "version": "1.0.0",
+   "description": "Test case from Netlife Dialog",
+   "main": "index.js",
+   "scripts": {
+       "test": "echo \"Error: no test specified\" && exit 1",
+   +   "build": "babel js -d compiled"
+   },
+   ```
