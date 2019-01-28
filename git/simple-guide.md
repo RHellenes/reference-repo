@@ -181,7 +181,7 @@ Ad hoc is added as I go
 
 - **Choose default remote branch to push/pull**
 
-  Do this to enable `git pull` instead of having to do `git pull origin dev`when you are on `dev` locally.
+  Do this to enable `git pull` instead of having to do `git pull origin dev` when you are on branch: `dev` locally.
 
   ```git
   git branch --set-upstream-to=<remote>/<branch>
