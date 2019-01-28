@@ -2,19 +2,22 @@
 
 [_Based on Roger Dudler's version_](http://rogerdudler.github.io/git-guide/)
 
+Ad hoc is added as I go
+
 &nbsp;
 
 ## Contents:
 
-+ [Light weight version git guide](#light-weight-version-git-guide)
-  + [Contents:](#contents)
-  + [Create & Clone](#create--clone)
-  + [Add & Remove](#add--remove)
-  + [Commit & Synchronize](#commit--synchronize)
-  + [Branches](#branches)
-  + [Merge](#merge)
-  + [Tagging](#tagging)
-  + [Restore](#restore)
+- [Light weight version git guide](#light-weight-version-git-guide)
+  - [Contents:](#contents)
+  - [Create & Clone](#create--clone)
+  - [Add & Remove](#add--remove)
+  - [Commit & Synchronize](#commit--synchronize)
+  - [Branches](#branches)
+  - [Merge](#merge)
+  - [Tagging](#tagging)
+  - [Restore](#restore)
+  - [Set Remote Upstream](#set-remote-upstream)
 
 &nbsp;
 
@@ -170,4 +173,21 @@
 
   ```git
   git checkout -- fileName
+  ```
+  
+&nbsp;
+
+## Set Remote Upstream
+
+- **Choose default remote branch to push/pull**
+
+  Do this to enable `git pull` instead of having to do `git pull origin dev`when you are on `dev` locally.
+
+  ```git
+  git branch --set-upstream-to=<remote>/<branch>
+  ```
+
+  **e.g**
+  ```git
+  git branch --set-upstream-to=origin/dev
   ```
