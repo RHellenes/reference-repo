@@ -18,6 +18,7 @@ Ad hoc is added as I go
   - [Tagging](#tagging)
   - [Restore](#restore)
   - [Set Remote Upstream](#set-remote-upstream)
+  - [Set alias/ shorthand](#set-alias-shorthand)
 
 &nbsp;
 
@@ -54,7 +55,7 @@ Ad hoc is added as I go
   or add whole directory
 
   ```git
-  git add directoryName
+  git add <directory>
   ```
 
 - **add all** changes to INDEX
@@ -72,7 +73,7 @@ Ad hoc is added as I go
   or remove whole directory
 
   ```git
-  git rm directoryName
+  git rm <directory>
   ```
 
 &nbsp;
@@ -88,7 +89,7 @@ Ad hoc is added as I go
 - **push** changes to remote repository
 
   ```git
-  git push origin branchName
+  git push origin <branch>
   ```
 
 - **connect** local repository to remote repository
@@ -110,25 +111,31 @@ Ad hoc is added as I go
 - **create** new branch
 
   ```git
-  git checkout -b branchName
+  git checkout -b <branch>
   ```
 
 - **switch** branch
 
   ```git
-  git checkout branchName
+  git checkout <branch>
   ```
 
 - **delete** branch
 
   ```git
-  git branch -d branchName
+  git branch -d <branch>
+  ```
+
+- **delete** remote branch
+
+  ```git
+  git branch --delete <branch>
   ```
 
 - **push branch** to remote repository
 
   ```git
-  git push origin branchName
+  git push <remote> <branch>
   ```
 
 &nbsp;
@@ -190,4 +197,41 @@ Ad hoc is added as I go
   **e.g**
   ```git
   git branch --set-upstream-to=origin/dev
+  ```
+
+&nbsp;
+
+## Set alias/ shorthand
+
+- **Set alias**
+
+
+  ```git
+  git config --global alias.<shorthand> <gitCommand>
+  ```
+  
+  This will create a git alias, and add an entry to your global `~/.gitconfig` file
+  ```git
+  [alias]
+      <shorthand> = <gitCommand>
+  ```
+
+  **e.g**
+  ```git
+  git config --global alias.co checkout
+  ```
+  [_Will create this in the_ `~/.gitconfig` _file_]
+  ```git
+  [alias]
+      co = checkout
+  ```
+
+  You can also manually update the `.gitconfig` file with a text editor following this syntax:
+
+  ```git
+  [alias]
+      co = checkout
+      brunch = branch
+      dinner = push
+      etc.
   ```
