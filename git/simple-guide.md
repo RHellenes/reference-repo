@@ -46,7 +46,7 @@ Ad hoc is added as I go
 
 ## Add & Remove
 
-- **add** changes to INDEX
+- **Add** changes to INDEX
 
   ```git
   git add filename.filetype
@@ -58,13 +58,13 @@ Ad hoc is added as I go
   git add <directory>
   ```
 
-- **add all** changes to INDEX
+- **Add all** changes to INDEX
 
   ```git
   git add *
   ```
 
-- **remove/ delete**
+- **Remove/ delete**
 
   ```git
   git rm filename.filetype
@@ -80,25 +80,25 @@ Ad hoc is added as I go
 
 ## Commit & Synchronize
 
-- **commit** changes
+- **Commit** changes
 
   ```git
   git commit -m 'Commit message'
   ```
 
-- **push** changes to remote repository
+- **Push** changes to remote repository
 
   ```git
   git push origin <branch>
   ```
 
-- **connect** local repository to remote repository
+- **Connect** local repository to remote repository
 
   ```git
   git remote add origin <server>
   ```
 
-- **update** local repository with remote changes
+- **Update** local repository with remote changes
 
   ```git
   git pull
@@ -108,43 +108,43 @@ Ad hoc is added as I go
 
 ## Branches
 
-- **create** new branch
+- **Create** new branch
 
   ```git
   git checkout -b <branch>
   ```
 
-- **switch** branch
+- **Switch** branch
 
   ```git
   git checkout <branch>
   ```
 
-- **delete** branch
+- **Delete** branch
 
   ```git
   git branch -d <branch>
   ```
 
-- **delete** remote branch
+- **Delete** remote branch
 
   ```git
   git branch --delete <branch>
   ```
 
-- **push branch** to remote repository
+- **Push branch** to remote repository
 
   ```git
   git push <remote> <branch>
   ```
 
-- **list local branches** 
+- **List local branches** 
 
   ```git
   git branch
   ```
 
-- **list remote branches** 
+- **List remote branches** 
 
   ```git
   git branch -r
@@ -167,13 +167,13 @@ Ad hoc is added as I go
 
 ## Merge
 
-- **merge changes** from another branch
+- **Merge changes** from another branch
 
   ```git
   git merge branchName
   ```
 
-- **view changes** between two branches
+- **View changes** between two branches
 
   ```git
   git diff sourceBranch -- targetBranch
@@ -185,7 +185,7 @@ Ad hoc is added as I go
 
 ## Tagging
 
-- **create tag**
+- **Create tag**
 
   ```git
   git tag tagName commitID
@@ -263,3 +263,5 @@ To end git log press <kbd>Q</kbd>
       dinner = push
       etc.
   ```
+
+  **Pro tip:** Type `code ~/.gitconfig` in the terminal to open the file in VSCode from the terminal.
