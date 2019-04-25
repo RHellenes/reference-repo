@@ -172,6 +172,9 @@ Ad hoc is added as I go
   git log
   ```
 
+To end git log press <kbd>Q</kbd> 
+
+
 &nbsp;
 
 ## Restore
