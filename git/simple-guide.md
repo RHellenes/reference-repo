@@ -138,6 +138,31 @@ Ad hoc is added as I go
   git push <remote> <branch>
   ```
 
+- **list local branches** 
+
+  ```git
+  git branch
+  ```
+
+- **list remote branches** 
+
+  ```git
+  git branch -r
+  ```
+
+  If `git branch -r` does not work then try:
+
+  ```git
+  git ls-remote --heads <remote-name>
+  ```
+
+  e.g.
+  ```git
+  git ls-remote --heads git@github.com:RHellenes/rhellenes.me.git
+  ```
+
+
+
 &nbsp;
 
 ## Merge
