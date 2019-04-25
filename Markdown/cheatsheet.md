@@ -496,3 +496,13 @@ To write markdown right after a HTML-tag you have to have a empty line between. 
 
 *This does work*
 ```
+&nbsp;
+&nbsp;
+
+## Keyboard buttons 
+
+When you'd like to display keyboard keys, say for example to guide the reader on what to press in what sequence, such as <kbd>cmd</kbd> + <kbd>c</kbd>. To access this function use the `<kbd></kbd>`-tag
+
+```md
+(...) such as <kbd>cmd<kbd> + <kbd>z<kbd>. 
+```
