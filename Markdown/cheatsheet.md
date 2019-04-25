@@ -429,14 +429,25 @@ Legg merke til ` : ` på andre linje
 
 ## Accordion
 
-Det er mulig å gjemme innhold i en accordion via HTML5 taggen `<details>  </details>`. Det er noen begrensinger rundt styling av accordion knapp teksten. Men det er mulig å legge inn det meste av HTML 
+It's possible to hide content in an accorion with the HTML5 tag `<details>  </details>`. The accordion text is defined inside a following `<summary>Accordion-text</summary>`. The structure is as shown here: 
+
+```html
+<details>
+    <summary>Accordion-text</summary>
+
+    Content goes here
+
+</details>
+
+```
+&nbsp;
 
 <details><summary>
 Basic Accordion - <b><i>Click me!</i></b>
 </summary>
 
 
-#### Det er også mulig å skrive titler og annet her. 
+#### There is possible to write normal markdown inside here aswell
 
 ```js
 console.log('Success!!11')
@@ -447,15 +458,15 @@ console.log('Success!!11')
 
 &nbsp;
 
+The code from the accordion above:
 ```html
 <details>
 <summary>Basic Accordion - <b><i>Click me!</i></b> </summary>
 
 
-#### Det er også mulig å skrive titler og annet her. 
+#### There is possible to write normal markdown inside here aswell
 
 Hidden text and other stuff
-
 
 </details>
 
@@ -468,10 +479,10 @@ Hidden text and other stuff
 
 To write markdown right after a HTML-tag you have to have a empty line between. This goes for between two tags aswell as after. 
 
-<h4>Text</h4>
+<h4>This doesn't work</h4>
 *This doesn't work*
 
-<h4>Text</h4>
+<h4>This does work</h4>
 
 *This does work*
 
@@ -484,5 +495,4 @@ To write markdown right after a HTML-tag you have to have a empty line between. 
 <h4>Text</h4>
 
 *This does work*
-
 ```
