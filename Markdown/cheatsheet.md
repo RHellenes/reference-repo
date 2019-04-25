@@ -425,3 +425,45 @@ Legg merke til ` : ` på andre linje
 - [x] Gå tur
 - [ ] Vask opp
 ```
+&nbsp;
+&nbsp;
+
+## Accordion
+
+Det er mulig å gjemme innhold i en accordion via HTML5 taggen `<details>  </details>`. Det er noen begrensinger rundt styling av accordion knapp teksten. Men det er mulig å legge inn det meste av HTML 
+
+<details><summary>
+Basic Accordion - Click me!
+</summary>
+
+
+#### Det er også mulig å skrive titler og annet her. 
+
+```js
+console.log('Success!!11')
+```
+
+
+</details>
+
+
+
+<details ><summary style="color:orangered; float: left; width:100%">
+
+<p style="float:left">Fancy Accordion </p>
+
+</summary>
+
+
+#### Det er også mulig å skrive titler og annet her. 
+
+```js
+console.log('Success!!11')
+```
+
+
+</details>
+
+<p></p>
+
+## Markdown between or after HTML-tags
