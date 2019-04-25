@@ -1,6 +1,5 @@
 # Markdown Cheatsheet
 
-###### Reference: Wes Bos
 
 &nbsp;
 
@@ -446,9 +445,9 @@ console.log('Success!!11')
 
 </details>
 
+------
 
-
-<details ><summary style="color:orangered; float: left; width:100%">
+<details ><summary style="color:orangered; float: left; width:100%;">
 
 <p style="float:left">Fancy Accordion </p>
 
@@ -464,6 +463,7 @@ console.log('Success!!11')
 
 </details>
 
-<p></p>
+----
+
 
 ## Markdown between or after HTML-tags
