@@ -1,0 +1,1 @@
+[Link to content](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
