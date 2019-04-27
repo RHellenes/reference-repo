@@ -80,10 +80,16 @@ Ad hoc is added as I go
 
 ## Commit & Synchronize
 
-- **Commit** changes
+- **Short Commit version** changes
 
   ```git
-  git commit -m 'Commit message'
+  git commit -m "Title message"
+  ```
+
+- **Extended Commit version** changes
+
+  ```git
+  git commit -m "Title message" -m "Description message"
   ```
 
 - **Push** changes to remote repository
