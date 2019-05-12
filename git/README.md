@@ -58,10 +58,22 @@ Ad hoc is added as I go
   git add <directory>
   ```
 
-- **Add all** changes to INDEX
+- **Add all** changes. And putting it to staging area. 
 
   ```git
   git add *
+  ```
+
+- **Reset** changes. Unstaging all staged files. 
+
+  ```git
+  git reset
+  ```
+
+- **Single file reset** changes. Unstaging all staged files. 
+
+  ```git
+  git reset -- <filepath>
   ```
 
 - **Remove/ delete**
@@ -80,17 +92,25 @@ Ad hoc is added as I go
 
 ## Commit & Synchronize
 
-- **Short Commit version** changes
+- **Commit message**
 
   ```git
   git commit -m "Title message"
   ```
 
-- **Extended Commit version** changes
+- **Commit title and message** 
 
   ```git
   git commit -m "Title message" -m "Description message"
   ```
+
+- **Change previous** commit message
+
+  ```git
+  git commit --amend -m "Optional new message"
+  ```
+
+  **Note**: If you have new files staged (e.g. you forgot to save one of the files before commiting) then these files will be added to the new commit. Leaving out `-m "..."`  *and* add `--no-edit` will just add the new staged files on top of the preious commit with the same message. 
 
 - **Push** changes to remote repository
 
