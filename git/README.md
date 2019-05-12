@@ -155,7 +155,7 @@ Ad hoc is added as I go
 - **Delete** remote branch
 
   ```git
-  git branch --delete <branch>
+  git push <remote_name> --delete <branch>
   ```
 
 - **Push branch** to remote repository
