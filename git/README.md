@@ -202,10 +202,10 @@ Ad hoc is added as I go
 - **View changes** between two branches
 
   ```git
-  git diff sourceBranch -- targetBranch
+  git diff sourceBranch..targetBranch
   ```
 
-  press `return` to end. `Q` also works (?)
+  press `return` to end. `:Q`
 
 &nbsp;
 
