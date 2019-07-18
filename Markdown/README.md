@@ -1,6 +1,6 @@
 # Markdown Cheatsheet
 
-
+*Se om denne lenken er aktuell for andre platformer enn wordpress* - https://en.support.wordpress.com/markdown-quick-reference/
 &nbsp;
 
 ## Tekst utheving o.l.
