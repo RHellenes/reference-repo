@@ -1,8 +1,6 @@
 # Light weight version git guide
 
-[_Based on Roger Dudler's version_](http://rogerdudler.github.io/git-guide/)
-
-Ad hoc is added as I go
+This cheatsheet is based [_based on Roger Dudler's git guide_](http://rogerdudler.github.io/git-guide/). I add content as time goes and I learn new handy stuff. Feel free to create a pull request if you find something falsy or know a better method to achieve the same result. 
 
 &nbsp;
 
@@ -11,7 +9,7 @@ Ad hoc is added as I go
 - [Light weight version git guide](#light-weight-version-git-guide)
   - [Contents:](#contents)
   - [Create & Clone](#create--clone)
-  - [Add & Remove](#add--remove)
+  - [Stage & Unstage](#stage--unstage)
   - [Commit & Synchronize](#commit--synchronize)
   - [Branches](#branches)
   - [Merge](#merge)
@@ -44,18 +42,18 @@ Ad hoc is added as I go
 
 &nbsp;
 
-## Add & Remove
+## Stage & Unstage
 
 - **Add** changes to INDEX
 
   ```git
-  git add filename.filetype
+  git add fileName.fileType
   ```
 
   or add whole directory
 
   ```git
-  git add <directory>
+  git add directoryName
   ```
 
 - **Add all** changes. And putting it to staging area. 
